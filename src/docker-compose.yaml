@@ -159,9 +159,9 @@ services:
     image: shippingservice
     container_name: shippingservice
     ports: 
-      - 50052:50051
+      - 50052:50052
     environment:
-      PORT: 50051
+      PORT: 50052
       DISABLE_TRACING : 1
       DISABLE_PROFILER: 1
       DISABLE_STATS: 1
